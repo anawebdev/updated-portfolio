@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    color: #263238;
+    line-height: 200%;
+  }
+  p {
+      font-size: 14px;
+      line-height: 200%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      font-family: 'Zilla Slab';
+      letter-spacing: 0.075em;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+  .card,
+  .page-footer{
+      margin-top: 40px;
+  }
+  .work-info {
+      text-indent: 2%;
+  }
+  .work-info ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .date {
+      font-style: italic;
+      font-size: 12px;
+  }
+  .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: rgba(0, 150, 136, 1);
+    font-weight: 700;
+}
+.card-title {
+    color: #fff !important;
+}
+.resume ul li {
+    position: relative;
+    text-indent: 25px;
+    max-width: 530px;
+}
+.skills {
+    max-width: 530px;
+}
+i {
+    margin-right: 10px;
+    color: rgba(0, 150, 136, 0.8);
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 14px;
+    left: -25px;
+    top: 0;
+}
+blockquote {
+    border-left: 5px solid rgba(0, 150, 136, 0.8);
+}
+footer.page-footer.blue-grey.darken-4 .center-align {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li a {
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    text-indent: 0!important;
+    margin: 12px;
+}
+footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.card-iamge {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 7;
+}
+.card-title {
+    z-index: 10;
+}
+.card:hover .overlay,
+.card:hover .card-title {
+    opacity: 0;
+    -webkit-transition: all 2s ease-out; /* Safari */
+    transition: all 2s ease-out;
+}
+
+.avatar,
+.intro {
+    display: inline-block;
+    vertical-align: middle;
+}
+.avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+.avatar {
+    max-width: 100px;
+}
+.intro {
+    width: calc(100% - 130px);
+    margin-left: 25px;
+    max-width: 450px;
+}
+.intro a {
+    color: rgba(0, 150, 136, 1);
+    text-decoration: underline;
+}
+footer li:hover > a > svg > path {
+    fill: rgba(0, 150, 136, 1);
+    -webkit-transition: all 1s ease-out; /* Safari */
+    transition: all 1s ease-out;
+}
+.intro-section {
+    padding: 120px 0;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color: rgba(0, 150, 136, 0.5);
+}
